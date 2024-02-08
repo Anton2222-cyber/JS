@@ -1,0 +1,16 @@
+{
+  "firstName": "Ivan",
+  "lastName": "Ivanov",
+  "age": 18,
+  "isMale": true,
+  "email": null,
+  "phones": [
+    "+38066-555-55-55",
+    "+38066-666-66-66"
+  ],
+  "address": {
+    "city": "Dnipro",
+    "street": "Tarasa Shevchenko",
+    "home": "121"
+  }
+}

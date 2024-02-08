@@ -1,0 +1,29 @@
+#pole{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 100px auto 0px;
+  width: 414px;
+  height: 414px;
+  background:  url("./pole.jpg");
+
+}
+.tac-toe{
+  margin-top: 3px;
+  margin-left: 3px;
+  width: 30%;
+  height: 30%;
+  color: red;
+  font-size: 100px;
+  background-color: black;
+}
+
+#newGame{
+  position: fixed;
+  width: 200px;
+  height: 100px;
+  left: 250px;
+  top: 200px;
+  font-size: 20px;
+}

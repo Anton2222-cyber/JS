@@ -1,0 +1,19 @@
+#btn1{
+  height: 100px;
+  width: 200px;
+  background-color: red;
+  color: blue;
+  font-size: 20px;
+}
+
+#btn2{
+  height: 150px;
+  width: 300px;
+  background-color: blue;
+  color: red;
+  font-size: 30px;
+}
+
+#infoBtn{
+  width: 100px;
+}

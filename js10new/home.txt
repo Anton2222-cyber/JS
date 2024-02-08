@@ -1,0 +1,5 @@
+1.Реализовать методы в классном массиве: pop, map, every, some
+**reduce.
+https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+2.Переписать код используя синтаксис class. 

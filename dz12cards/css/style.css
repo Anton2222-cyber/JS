@@ -1,0 +1,152 @@
+/* article {
+  background-color: aqua;
+} */
+
+* {
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cards-title {
+  font-size: 60px;
+  color: rgb(255, 103, 108);
+
+}
+
+ul {
+  list-style: none;
+}
+
+.cards-container {
+  width: 100vw;
+  height: 100vh;
+  /* display: flex;
+  justify-content: center; */
+  padding-top: 100px;
+  /* width: 1100px;
+  height: 100vh; */
+  margin: auto;
+  background: linear-gradient(to top, rgb(255, 103, 108) 50%, rgb(242, 242, 242) 50%);
+}
+
+.cards-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.card-wrapper {
+  margin: 16px 0;
+  border-radius: 10px;
+  /* margin-top: 200px; */
+  background-color: white;
+  box-shadow: 1px 1px black;
+}
+
+.card-container {
+  width: 230px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+.card-photo-wrapper {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: white;
+  padding: 5px;
+  position: relative;
+}
+
+.card-theme-fhoto {
+  width: inherit;
+  height: inherit;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 103, 108);
+  /* color: #fff;
+  font-size: 32px; */
+  /* overflow: hidden; */
+}
+
+.card-photo {
+  width: 94px;
+  height: 94px;
+  border-radius: 47px;
+  border: 3px solid white;
+  /* position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; */
+  object-fit: cover;
+}
+
+.card-fullname {
+  margin-top: 20px;
+}
+
+
+a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  margin-right: 10px;
+
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: rgb(255, 103, 108);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts {
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.choosed-container {
+  margin: 50px auto;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-weight: bold;
+  height: 80px;
+  background-color: white;
+  color: rgb(255, 103, 108);
+
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.li-list {
+  font-size: 30px;
+  color: blue;
+  border: 1px solid black;
+  margin-right: 10px;
+  
+}

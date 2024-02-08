@@ -1,0 +1,44 @@
+*{
+  font-size: 35px;
+  margin-top: 25px;
+}
+.frame{
+  width: 1200px;
+  height: 400px;
+  margin: 1px auto 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+.menu{
+  display: flex;
+  justify-content:space-around;
+}
+
+#prev{
+  width: 200px;
+  height: 100px;
+}
+
+#next{
+  width: 200px;
+  height: 100px;
+}
+/* #leftImg{
+  position: absolute;
+  right: 1200px;
+  bottom: 0px;
+  
+} */
+#middleImg{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  
+}
+/* #rightImg{
+  position: absolute;
+  right: -1200px;
+  bottom: 0px;
+  
+} */
